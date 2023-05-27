@@ -2,6 +2,7 @@
 Sistema sencillo para la realización de Convalidaciones de materias para el cambio de carrera
 El objetivo de este sistema es facilitar al usuario que lo utilice el proceso de convalidaciones de materias para las solicitudes de cambio de carreras, la solución que se implementa en este sistema es realizar el registro del alumno, las materias cursadas por el alumno y después las convalidaciones, estos tres procesos de manera separada, todo mediante una interfaz gráfica que utiliza tablas para facilitar el manejo de la información; al final del llenado de las convalidaciones se genera un documento PDF en la carpeta "Convalidaciones" con el número de control del alumno, este sistema se apoya de una base de datos, la cuál se incluye el código y el jdbc para sql server en el repositorio.
 Este sistema tiene un poco de manejo de errores, no todos los errores están cubiertos a la hora de borrar información en la base de datos, pero los principales están cubiertos.
+El ejemplo que viene en la carpeta de Convalidaciones es un ejemplo vacía a propósito, y no se muestran las líneas de la tabla pero es debido a la plataforma, el archivo generado tiene la tabla bien hecha.
 
 Interfaces:
 MenuConvalidaciones.
